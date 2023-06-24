@@ -15,7 +15,7 @@ apt update && apt dist-upgrade && pveversion
 sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list
 ```
 
-#add package repo
+#add package repo **NEEDS REVIEW**
 ```bash
 sed -i -e 's/bullseye/bookworm/g' /etc/apt/sources.list.d/pve-install-repo.list 
 ```
@@ -23,7 +23,9 @@ sed -i -e 's/bullseye/bookworm/g' /etc/apt/sources.list.d/pve-install-repo.list
 ```bash
 apt update
 ```
+```bash
 apt dist-upgrade
+```
 
 ## Notes from developer:
 During the above step, you will be asked to approve changes to configuration files, where the default config has been updated by their respective package.
