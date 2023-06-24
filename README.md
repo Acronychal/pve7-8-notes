@@ -7,9 +7,7 @@ pve7to8 --full
 
 #update host
 ```bash
-apt update
-apt dist-upgrade
-pveversion
+apt update && apt dist-upgrade && pveversion
 ```
 
 #update Debian repos to Bookworm
