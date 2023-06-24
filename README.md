@@ -1,5 +1,12 @@
 ### pve7-8-notes
 
+This repo goes over the commands necessary to upgrade a Proxmox VE 7.15 host to version 8.0. 
+
+### wiki from developer
+https://pve.proxmox.com/wiki/Upgrade_from_7_to_8
+
+# **Backup VMs & CTs - Now is a good time for spring cleaning**
+
 #Preliminary Check
 ```bash
 pve7to8 --full
