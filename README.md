@@ -21,10 +21,7 @@ sed -i -e 's/bullseye/bookworm/g' /etc/apt/sources.list.d/pve-install-repo.list
 ```
 #refresh package index
 ```bash
-apt update
-```
-```bash
-apt dist-upgrade
+apt update && apt dist-upgrade
 ```
 
 ## Notes from developer:
