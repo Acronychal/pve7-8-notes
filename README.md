@@ -1,4 +1,4 @@
-### pve7-8-notes
+# **pve7-8 notes**
 
 This repo goes over the commands necessary to upgrade a Proxmox VE 7.15 host to version 8.0. 
 
